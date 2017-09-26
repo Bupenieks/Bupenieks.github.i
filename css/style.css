@@ -103,13 +103,16 @@ p{
 ---------------------------------*/
 
 html, body {
-	width: 100%;
-	min-height: 100%;
 	position:fixed;
-	top:0;
+	top: 0;
 	bottom:0;
 	left:0;
 	right:0;
+
+}
+body {
+	background:#011A20 left top repeat;
+	background-position: 0% 100%;
 
 }
 
@@ -119,9 +122,13 @@ html, body {
 	background:#011A20 left top repeat;
 	background-attachment:fixed;
 	background-position:center bottom;
-	padding:280px 0;
 	width: 100%;
 	min-height: 100%;
+	position:fixed;
+	top: 10%;
+	bottom:0;
+	left:0;
+	right:0;
 }
 .logo{
 	width:130px;
