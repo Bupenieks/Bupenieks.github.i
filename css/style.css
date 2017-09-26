@@ -148,6 +148,7 @@ body {
 .we-create{
 	padding:0;
 	margin:10px 0 10px -15px;
+	margin-bottom: 3%;
 }
 .wp-pic{
 	margin-bottom:20px;
@@ -194,7 +195,7 @@ color: #fff;
 
 .link:hover {
 	text-decoration:none;
-
+	color: #2A6497;
 	border-color: #2A6497 !important;
 }
 
