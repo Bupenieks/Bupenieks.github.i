@@ -40,48 +40,82 @@
 <div style="overflow:hidden;">
 <header class="header" id="header"><!--header-start-->
 
-                    <figure class="logo animated fadeInDown delay-07s">
-                            <a href="#"><img id="image" src="./crop.png" alt=""></a>
-                    </figure>
+        <div class="card logo animated fadeInDown delay-07s">
+                <figure class="logo animated fadeInDown delay-07s">
+                        <img id="image" src="./crop.png" alt="">
+                </figure>
 
-        <h1 class="animated fadeInDown delay-07s">Ben Upenieks</h1>
-        <ul class="we-create animated fadeInUp delay-1s">
-        	<li>UWaterloo Software Engineering Class of 2021</li>
-        </ul>
-            <ul class="we-create animated fadeInUp delay-1s">
-                    <li>Ford Motor Company - Software Engineering Coop</li>
-            </ul>
-        <ul class="we-create animated fadeInUp delay-1s">
-            <li>Interested in applications of machine learning in music</li>
-        </ul>
-        <ul class="we-create animated fadeInUp delay-1s">
-            <li>Former soccer goalkeeper at the highest level in Canada</li>
-        </ul>
-        <ul class="we-create animated fadeInUp delay-1s">
-            <li>Fair-weather foodie </li>
-        </ul>
-        <div id="links">
-        <a class="link animated fadeInUp delay-1s" href="mailto:ben.upenieks@uwaterloo.ca"> <i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a>
-        <a class="link animated fadeInUp delay-1s" href="https://github.com/bupenieks"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-        <a class="link animated fadeInUp delay-1s" href="https://github.com/bupenieks"><i class="fa fa-linkedin fa-3x" aria-hidden="true" ></i></a>
+                <h1 class="animated fadeInDown delay-07s">Ben Upenieks</h1>
+                <ul class="we-create animated fadeInUp delay-1s">
+                        <li>UWaterloo Software Engineering Class of 2021</li>
+                </ul>
+                <ul class="we-create animated fadeInUp delay-1s">
+                        <li>Ford Motor Company - Software Engineering Co-op</li>
+                </ul>
+                <ul class="we-create animated fadeInUp delay-1s">
+                        <li>Interested in applications of machine learning in music</li>
+                </ul>
+                <ul class="we-create animated fadeInUp delay-1s">
+                        <li>Former soccer goalkeeper at the highest level in Canada</li>
+                </ul>
+                <ul class="we-create animated fadeInUp delay-1s">
+                        <li>Fair-weather foodie </li>
+                </ul>
+                <div id="links">
+                        <a class="link animated fadeInUp delay-1s" href="mailto:ben.upenieks@uwaterloo.ca"> <i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a>
+                        <a class="link animated fadeInUp delay-1s" href="https://github.com/bupenieks"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+                        <a class="link animated fadeInUp delay-1s" href="https://github.com/bupenieks"><i class="fa fa-linkedin fa-3x" aria-hidden="true" ></i></a>
+                </div>
+                <a id="resume" class="link animated fadeInUp delay-1s" href="https://github.com/Bupenieks/Resume/blob/master/resume.pdf">Resumé</a>
         </div>
-        <a id="resume" class="link animated fadeInUp delay-1s" href="https://github.com/Bupenieks/Resume/blob/master/resume.pdf">Resumé</a>
+
+
 
         <Style>
+
+                .card {
+
+                        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+13,ffffff+13,e5e5e5+49 */
+                        background: rgb(255,255,255); /* Old browsers */
+                        background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 13%, rgba(255,255,255,1) 13%, rgba(229,229,229,1) 49%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 13%,rgba(255,255,255,1) 13%,rgba(229,229,229,1) 49%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(135deg,  rgba(255,255,255,1) 13%,rgba(255,255,255,1) 13%,rgba(229,229,229,1) 49%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+                        box-shadow: 0 4px 8px 0 ;
+                        transition: 0.3s;
+                        width: 100%;
+                        margin-top: 5%;
+
+                        box-shadow: 0 50px 80px 0 black;
+                        border-radius: 0%;
+                }
+
+                .card:hover {
+                        box-shadow: 0 100px 160px 0 black;
+                }
+
+                .container {
+                        padding: 2px 16px;
+                        width: 50%;
+                }
+
+
                 #image {
+                        margin-top: 20%;
                         border-radius: 50%;
                         border-style: solid;
-                        border-width: 1px;
+                        border-width: 3px;
                         border-color: lightgrey;
-                        box-shadow: white;
 
                 }
                 .logo {
-                        width: 300px;
+                        width: 35%
                 }
 
             #resume {
                 margin-left: 15px;
+                    margin-bottom: 10%;
                 border: solid;
                 border-color: white;
                 width: 120px;
