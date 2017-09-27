@@ -103,7 +103,7 @@ p{
 ---------------------------------*/
 
 html, body {
-	position:fixed;
+	position:relative;
 	top: 0;
 	bottom:0;
 	left:0;
@@ -124,8 +124,9 @@ body {
 	background-position:center bottom;
 	width: 100%;
 	min-height: 100%;
-	position:fixed;
-	top: 10%;
+	position:relative;
+	margin-top: 5%;
+	top: 0;
 	bottom:0;
 	left:0;
 	right:0;
