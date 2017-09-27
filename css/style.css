@@ -111,7 +111,7 @@ html, body {
 
 }
 body {
-	background:url(../background.JPG) left top repeat;
+	background:#011A20 left top repeat;
 	background-position: 0% 100%;
 
 }
@@ -119,14 +119,13 @@ body {
 
 .header{
 	text-align:center;
-	background: url(../background.JPG) left top;
-	background-size: cover;
+	background:#011A20 left top repeat;
 	background-attachment:fixed;
 	background-position:center bottom;
 	width: 100%;
 	min-height: 100%;
 	position:fixed;
-	top: 0;
+	top: 10%;
 	bottom:0;
 	left:0;
 	right:0;
@@ -142,13 +141,12 @@ body {
 	font-weight:400;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
-	color:black;
+	color:#fff;
 }
 
 .we-create{
 	padding:0;
 	margin:10px 0 10px -15px;
-	margin-bottom: 3%;
 }
 .wp-pic{
 	margin-bottom:20px;
@@ -157,7 +155,7 @@ body {
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
 	font-size:14px;
-	color: black;
+	color: #bcbcbc;
 	text-transform: uppercase;
 	font-weight: 400;
 	margin:0 5px 0 0;
@@ -195,8 +193,8 @@ color: #fff;
 
 .link:hover {
 	text-decoration:none;
-	color: #2A6497;
-	border-color: #2A6497 !important;
+	color:#7cc576 !important;
+	border-color: #7cc576 !important;
 }
 
 .link:active, .link:focus {
