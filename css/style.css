@@ -103,11 +103,7 @@ p{
 ---------------------------------*/
 
 html, body {
-	position:relative;
-	top: 0;
-	bottom:0;
-	left:0;
-	right:0;
+	height: 100%;
 
 }
 body {
@@ -122,17 +118,18 @@ body {
 	background:#011A20 left top repeat;
 	background-attachment:fixed;
 	background-position:center bottom;
+	position: relative;
 	width: 100%;
-	min-height: 100%;
-	position:relative;
+	height: 100%;
 	margin-top: 5%;
 	top: 0;
 	bottom:0;
 	left:0;
 	right:0;
+	padding: 0;
 }
 .logo{
-	width:130px;
+	width: 20%;
 	margin:0 auto 35px;
 
 }
@@ -244,6 +241,7 @@ color: #fff;
 }
 
 .main-section{
+	margin-top: 10% ;
 	padding:90px 0 110px;
 }
 
@@ -377,21 +375,56 @@ color: #fff;
 }
 
 .portfolioContainer{
+
 	margin:0 auto;
+	margin-bottom: 0 auto;
 	padding-left:15px;
 }
 
 .Portfolio-box{
 	text-align:center;
 	margin-bottom:30px;
-	height:350px;
-	width:350px;
-	overflow:hidden;
+
+	height: 250px;
+	width:250px;
 	float:left;
+	overflow: hidden;
 	padding:0;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
+
+
+.Portfolio-box.coffehouse {
+	margin-top: -0%;
+	margin-right:auto;
+	margin-left: 6%;
+}
+
+.Portfolio-box.mobile {
+	height: 450px;
+	width: 230px;
+	margin-left: 6%;
+	margin-right: auto;
+}
+
+.Portfolio-box.square {
+	border-radius: 4%;
+	margin-top:5%;
+	height: 250px;
+	width: 250px;
+
+}
+
+.Portfolio-box.tiva {
+	height: 400px;
+	width: 180px;
+	margin-left: 110px;
+	border-radius: 4%;
+	margin-top:5%;
+}
+
 .Portfolio-box img{
-	margin-bottom:25px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;	
@@ -426,6 +459,9 @@ img {
 }
 
 .main-section.paddind{
+	padding:0px;
+	box-shadow:0 4px 5px -3px #ececec;
+	position:relative;
 	padding-bottom:60px;
 }
 
